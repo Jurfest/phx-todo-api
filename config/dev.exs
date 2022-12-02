@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :todoApi, TodoApi.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "senhaelixir",
   hostname: "localhost",
   database: "todoapi_dev",
   stacktrace: true,

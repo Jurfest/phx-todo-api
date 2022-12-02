@@ -7,7 +7,7 @@ import Config
 # Run `mix help test` for more information.
 config :todoApi, TodoApi.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "senhaelixir",
   hostname: "localhost",
   database: "todoapi_test#{System.get_env("MIX_TEST_PARTITION")}",
   pool: Ecto.Adapters.SQL.Sandbox,
