@@ -18,7 +18,7 @@ defmodule TodoApi.Models do
 
   """
   def list_todos do
-    Repo.all(Todo)
+    Repo.all(from t in Todo, order_by: [{ :asc, :id}])
   end
 
   @doc """
